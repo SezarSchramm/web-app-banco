@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-singin {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 900px;
+
+}
+
+.container-singin-left {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 894px;
+    background: #F0F0F5;
+}
+
+.margin-top174px {
+    margin-top: 174px;
+}
+
+
+.container-singin-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 940px;
+    height: 894px;
+    background: #F8F8F9;
+}
+
+.container-div-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 235px;
+
+}
+
+.container-div-form-sucess {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.form-singin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-div-form h2 {
+    width: 259px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #343447;
+}
+
+
+
+.form-singin label {
+    width: 110px;
+    height: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    margin-bottom: 6px;
+}
+
+.form-singin input {
+    padding: 10px 14px;
+    gap: 8px;
+    width: 368px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-singin button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 26px;
+    margin-bottom: 15px;
+    padding-top: 3px;
+
+
+    width: 160px;
+    height: 30px;
+    background: #DA0175;
+    border-radius: 10px;
+    border: none;
+
+    color: white;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+.form-singin span {
+    display: flex;
+    align-self: center;
+    width: 320px;
+    height: 23px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.h2-form-singing {
+    display: flex;
+    align-self: center;
+    margin-bottom: 32px;
+}
+
+.container-div-cadastro-sucesso {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 512px;
+    background: #F0F0F5;
+    border-radius: 30px;
+}
+
+.container-div-cadastro-sucesso span {
+    width: 410px;
+    height: 31px;
+    margin-top: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #343447;
+}
+
+.icone-sucesso-absolut {
+    position: absolute;
+    top: 42%;
+}
+
+.olho-senha1-singin {
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+
+.olho-senha1-singin-erro {
+    position: absolute;
+    top: 28%;
+    left: 90%;
+}
+
+
+.olho-senha2-singin {
+    position: absolute;
+    top: 55.5%;
+    left: 90%;
+}
+
+.olho-senha2-singin-erro {
+    position: absolute;
+    top: 52%;
+    left: 90%;
+}
+
+.container-div-stepper {
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 64px;
+}
+
+.stepper-div {
+    width: 82px;
+    height: 6px;
+    background: #DEDEE9;
+    border-radius: 20px;
+}
+
+.stepper-div-green {
+    width: 82px;
+    height: 6px;
+    background-color: #0E8750;
+
+    border-radius: 20px;
+}
+
+.p-erro-singin {
+    display: flex;
+    align-self: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E70000;
+}

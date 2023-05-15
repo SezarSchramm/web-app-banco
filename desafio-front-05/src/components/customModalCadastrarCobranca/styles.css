@@ -1,0 +1,266 @@
+.modal-criar-cobranca {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(145, 154, 150, 0.3);
+    /* Cor branca com transparência */
+    backdrop-filter: blur(1px);
+    /* Efeito de borrado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    height: 1000px;
+    /* Z-index opcional para ajustar a ordem de sobreposição */
+}
+
+/* Conteúdo do modal */
+.modal-content-criar-cobranca {
+    position: relative;
+    width: 600px;
+    height: 731px;
+    border-radius: 30px;
+    /* Estilos do conteúdo do modal */
+    background-color: #fff;
+    /* Cor branca do conteúdo do modal */
+    padding-left: 56px;
+    padding-right: 56px;
+    /* Espaçamento interno do conteúdo do modal */
+}
+
+
+.div-header-modal-criar-cobranca {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 16px;
+    margin-top: 51px;
+    margin-bottom: 25px;
+}
+
+.div-header-modal-criar-cobranca h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #3F3F55;
+
+}
+
+.form-modal-criar-cobrança {
+    display: flex;
+    flex-direction: column;
+    height: 622px;
+
+}
+
+.erro-span-modal-criar-cobranca {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #E70000;
+    margin-bottom: 8px;
+}
+
+.form-modal-criar-cobrança label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3F3F55;
+    margin-bottom: 4px;
+}
+
+.input-name-modal-criar-cobranca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    width: 485px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+
+.input-descricao-modal-criar-cobranca {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px 16px;
+    width: 485px;
+    height: 88px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    ;
+}
+
+.input-vencimento-modal-criar-cobranca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    width: 232px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.input-valor-modal-criar-cobranca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    width: 232px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.div-input-radio-modal-criar-cobranca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    width: 487px;
+    height: 48px;
+    background: #F0F0F5;
+    border-radius: 10px;
+}
+
+.div-input-radio-modal-criar-cobranca label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+    margin-bottom: 0px;
+
+}
+
+.button-cancelar-modal-criar-cobranca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 230.5px;
+    height: 34px;
+    background: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0E8750;
+
+}
+
+.button-aplicar-modal-criar-cobranca {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 230.5px;
+    height: 34px;
+    background: #DA0175;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+
+
+.div-botoes-modal-criar-cobranca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 23px;
+    margin-top: 60px;
+}
+
+.borda-red-erro {
+    border: 1px solid #E70000;
+}
+
+.x-modal-criar-cobranca {
+    position: relative;
+    height: 20.71547508239746px;
+    width: 18.66666603088379px;
+    bottom: 95%;
+    left: 100%;
+    cursor: pointer;
+
+}
+
+input[type="radio"] {
+    display: none;
+
+}
+
+.div-input-radio-modal-criar-cobranca label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.div-input-radio-modal-criar-cobranca label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+
+}
+
+
+input[type="radio"]:checked+label:before {
+    content: "✔";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #0E8750;
+    border-color: #0E8750;
+
+}
+
+input[type="radio"]:not(checked)+label:before {
+    background-color: #C8C8D7;
+    border-color: #C8C8D7;
+}

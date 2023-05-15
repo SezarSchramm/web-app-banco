@@ -1,0 +1,41 @@
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+    width: 350px;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700 bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #0E8750 !important;
+
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+    color: #0E8750 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    color: #0E8750 !important;
+}
+
+.css-ahj2mt-MuiTypography-root {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+    color: #0E8750 !important;
+}
+
+.css-14yr603-MuiStepContent-root {
+    border-left: 3px solid #0E8750 !important;
+}
+
+.css-8t49rw-MuiStepConnector-line {
+    border-color: #0E8750 !important;
+    border-left-width: 3px !important;
+}

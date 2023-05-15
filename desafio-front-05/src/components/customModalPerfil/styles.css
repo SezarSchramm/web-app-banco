@@ -1,0 +1,31 @@
+.div-modal-pequeno {
+    position: absolute;
+    left: 77.4%;
+}
+
+.modal-perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    gap: 16px;
+
+    position: absolute;
+    width: 92px;
+    height: 51px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    top: 32px;
+
+}
+
+.icones-modal-perfil {
+    cursor: pointer;
+}
+
+.setinha-modal {
+    position: absolute;
+    left: 12px;
+    top: 24px;
+}

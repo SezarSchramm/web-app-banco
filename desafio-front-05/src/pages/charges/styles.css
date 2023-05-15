@@ -1,0 +1,82 @@
+.main-div-cobrancas {
+  display: flex;
+  flex-direction: row;
+}
+.container-main-div-cobrancas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-cobrancas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1268px;
+  height: 112px;
+  border-bottom: 1px solid #acd9c5;
+}
+.span-cobrancas {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e8750;
+  margin-top: 90px;
+  margin-left: 80px;
+}
+.span-profile-cobrancas {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0e8750;
+}
+.container-div-cobrancas {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+.filtro-icone {
+  margin-left: 598px;
+  cursor: pointer;
+}
+.icone-cobranca-cobrancas {
+  margin-right: 24px;
+  margin-left: 70px;
+}
+.container-div-cobrancas h1 {
+  width: 109px;
+  height: 34px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+.container-div-cobrancas input {
+  margin-left: 16px;
+  height: 39px;
+  width: 318px;
+  padding: 7px 8px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.lupa-icone-cobrancas {
+  position: absolute;
+  left: 1170px;
+  cursor: pointer;
+}
+.tabela-cobrancas {
+  margin-left: 75px;
+  margin-top: 10px;
+  align-items:center;
+}

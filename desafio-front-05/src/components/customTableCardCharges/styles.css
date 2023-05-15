@@ -1,0 +1,71 @@
+.table-charge {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 18px;
+}
+
+.status-cliente-pago {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px;
+  gap: 4px;
+  width: 49px;
+  height: 19px;
+  background: #EEF6F6;
+  border-radius: 8px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1FA7AF;
+}
+
+.status-cliente-pendente {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px;
+  gap: 4px;
+  width: 77px;
+  height: 19px;
+  background: #FCF6DC;
+  border-radius: 8px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #C5A605;
+}
+
+.status-cliente-vencida {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px;
+  gap: 4px;
+  width: 67px;
+  height: 19px;
+  background: #FFEFEF;
+  border-radius: 8px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #971D1D;
+}
+
+.icone-editar {
+  cursor: pointer;
+}

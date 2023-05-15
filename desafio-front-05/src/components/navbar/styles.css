@@ -1,0 +1,28 @@
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 108px;
+    height: 900px;
+    margin-right: 32px;
+    gap: 72px;
+    background: #F0F0F5;
+}
+
+.div-barra-lateral-icones {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.div-barra-lateral-icones:first-child {
+    margin-top: 55px;
+}
+
+.pink {
+
+    border-right: 2px solid #DA0175;
+    height: 82px;
+}

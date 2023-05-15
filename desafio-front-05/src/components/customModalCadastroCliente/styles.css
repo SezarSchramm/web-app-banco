@@ -1,0 +1,202 @@
+.modal {
+  position: absolute;
+  height: 1100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(145, 154, 150, 0.3);
+  /* Cor branca com transparência */
+  backdrop-filter: blur(1px);
+  /* Efeito de borrado */
+  display: flex;
+  justify-content: center;
+
+  z-index: 999;
+  /* Z-index opcional para ajustar a ordem de sobreposição */
+}
+
+/* Conteúdo do modal */
+.modal-cadastro-cliente-conteudo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 600px;
+  height: 758px;
+  border-radius: 30px;
+  margin-top: 100px;
+  /* Estilos do conteúdo do modal */
+  background-color: #fff;
+  /* Cor branca do conteúdo do modal */
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* Espaçamento interno do conteúdo do modal */
+}
+
+.header-modal-cadastrar-cliente {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.header-modal-cadastrar-cliente h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #3F3F55;
+}
+
+.form-modal-cadastar-cliente {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.div-input-modal-cadastrar-cliente {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-form-lado-a-lado {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.form-modal-cadastar-cliente label {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3F3F55;
+  margin-bottom: 3px;
+}
+
+.input-grande-modal-cadastrar-cliente {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+  width: 487px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.input-metade-modal-cadastrar-cliente {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+  width: 232px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.input-cidade-modal-cadastrar-cliente {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+  width: 303px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.input-uf-modal-cadastrar-cliente {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+  width: 160px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.botao-cancelar-modal-cadastrar-cliente {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 81.5px;
+  gap: 4px;
+  background: #F8F8F9;
+  border: 1px solid #DEDEE9;
+  border-radius: 10px;
+  cursor: pointer;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0E8750;
+}
+
+.botao-aplicar-modal-cadastrar-cliente {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 87.25px;
+  gap: 4px;
+  width: 231.5px;
+  height: 33px;
+  background: #DA0175;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #F8F8F9;
+}
+
+.fechar-modal-cadastrar-cliente {
+  position: absolute;
+  width: 18.67px;
+  height: 17.32px;
+  left: 550px;
+  cursor: pointer;
+}
+
+.borda-vermelha-erro-modal-cadastrar-cliente {
+  border: 1px solid #E70000;
+}
+
+.div-input-modal-cadastrar-cliente span {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #E70000;
+}

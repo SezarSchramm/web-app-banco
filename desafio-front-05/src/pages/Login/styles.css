@@ -1,0 +1,126 @@
+.container-form-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1440px;
+    height: 900px;
+}
+
+.img-login {
+    width: 482px;
+    height: 100%;
+}
+
+.texto-img-login {
+    display: flex;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: 'SemiBold';
+    font-size: 24px;
+    width: 400px;
+    text-align: center;
+    top: 158px;
+    left: 56px;
+    color: #034A2A;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    align-items: center;
+    margin-left: 80px;
+
+    top: 235px;
+}
+
+.form-login h2 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    color: #343447;
+}
+
+.msg-email-login {
+    font-size: 14px;
+    margin-bottom: 6px;
+    align-self: self-start;
+    font-family: 'Nunito';
+    color: #344054;
+}
+
+.form-login input {
+    width: 344px;
+    height: 44px;
+
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border: 1px solid #D0D5DD;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    padding: 10px 14px;
+
+}
+
+.form-login input::placeholder {
+
+    font-size: 16px;
+    color: #667085;
+    font-style: normal;
+}
+
+.msg-senha-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 344px;
+    margin-bottom: 6px;
+    font-family: 'Nunito';
+    font-size: 14px;
+    color: #344054;
+}
+
+.link-esqueceu-senha,
+.link-cadastro {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #DA0175;
+    text-decoration-line: underline;
+}
+
+.form-login button {
+    width: 160px;
+    height: 33px;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: #DA0175;
+    color: #ffffff;
+}
+
+.form-login button:hover {
+    opacity: 0.8;
+}
+
+.error-msg-login {
+    font-size: 13px;
+    font-family: 'Nunito';
+    color: rgb(223, 78, 78);
+}
+
+.cadastro-msg {
+    height: 18px;
+    margin-top: 15px;
+    font-family: 'Nunito';
+    font-size: 14px;
+    color: #3F3F55;
+}
+
+.link-cadastro {
+    margin-left: 5px;
+}

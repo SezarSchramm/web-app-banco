@@ -1,0 +1,41 @@
+.table-charges {
+  width: 1116px;
+  height: 690px;
+  margin-bottom: 45px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 16px;
+  background: #ffffff;
+}
+.titles-charges {
+  width: 1077px;
+  margin-top: 15px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 218px 120px 160px 160px 160px 318px;
+  border-bottom: 1px solid #eff0f6;
+}
+.titles-charges strong {
+  width: 130px;
+  height: 55px;
+  display: flex;
+  font-family: "Nunito";
+  font-size: 16px;
+  padding: 10px 5px 10px 5px;
+  align-items: center;
+  gap: 8px;
+  color: #3f3f55;
+  margin-left: 10px;
+}
+.charge-cursor {
+  cursor: pointer;
+}
+.charges-client {
+  width: 1140px;
+  height: 530px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.charges-client:-webkit-scrollbar {
+  width: 0px;
+}

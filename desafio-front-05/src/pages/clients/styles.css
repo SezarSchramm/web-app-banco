@@ -1,0 +1,242 @@
+.main-div-cliente {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 108px;
+    height: 900px;
+    margin-right: 32px;
+    gap: 72px;
+}
+
+
+
+.div-barra-lateral-icones {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-barra-lateral-icones:first-child {
+    margin-top: 55px;
+}
+
+.header-clientes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    Width: 1268px;
+    height: 112px;
+    border-bottom: 1px solid #ACD9C5;
+
+}
+
+.span-cliente {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E8750;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+
+.container-main-div-clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-div-clientes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icone-cliente-clientes {
+    margin-right: 24px;
+}
+
+.container-div-clientes h1 {
+    width: 109px;
+    height: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.container-div-clientes button {
+    margin-left: 307.5px;
+    margin-right: 16px;
+    border: none;
+    width: 266px;
+    height: 33px;
+    background: #DA0175;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F8F8F9;
+}
+
+.container-div-clientes input {
+    margin-left: 16px;
+    height: 39px;
+    width: 318px;
+    padding: 7px 8px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.lupa-icone-clientes {
+    position: absolute;
+    left: 1085px;
+}
+
+
+.div-tabela-clientes {
+    position: relative;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 12px 23px;
+    width: 1130px;
+    height: 670.49px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.header-tabela-clientes {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #EFF0F6;
+}
+
+.header-tabela-clientes th {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    color: #3F3F55;
+}
+
+.linha-tabela-dados-clientes {
+    height: 56px;
+
+}
+
+.linha-tabela-dados-clientes td {
+    border-bottom: 1px solid #EFF0F6;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #747488;
+}
+
+
+.div-status-inadimplente {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 4px;
+    width: 99px;
+    height: 19px;
+    background: #FFEFEF;
+    border-radius: 8px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #971D1D;
+}
+
+.div-status-emdia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 4px;
+    width: 96px;
+    height: 19px;
+    background: #EEF6F6;
+    border-radius: 8px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1FA7AF;
+}
+
+
+.div-pesquisar-none {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nenhum-resultado-foi-encontrado {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #F08889;
+    margin-bottom: 16px;
+}
+
+.verifique-se-escrita-está-correta {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #9B9BB2;
+}
+
+.icone-cliente-vermelho {
+    position: relative;
+    bottom: 440px;
+    left: 165px;
+
+}

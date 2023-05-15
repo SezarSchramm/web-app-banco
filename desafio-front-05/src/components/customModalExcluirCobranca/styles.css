@@ -1,0 +1,95 @@
+.modal-excluir-cobranca {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(145, 154, 150, 0.3);
+    /* Cor branca com transparência */
+    backdrop-filter: blur(1px);
+    /* Efeito de borrado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    z-index: 999;
+    height: 1000px;
+    /* Z-index opcional para ajustar a ordem de sobreposição */
+}
+
+/* Conteúdo do modal */
+.modal-content-excluir-cobranca {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    /* Estilos do conteúdo do modal */
+    background-color: #fff;
+    /* Cor branca do conteúdo do modal */
+
+
+}
+
+.modal-content-excluir-cobranca span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #CC7800;
+    margin-bottom: 30px;
+}
+
+.modal-content-excluir-cobranca img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.modal-excluir-nao {
+    width: 100px;
+    height: 24px;
+    background: #F2D6D0;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #AE1100;
+    border: none;
+}
+
+
+.modal-excluir-sim {
+    width: 100px;
+    height: 22.59px;
+    background: #ACD9C5;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #034A2A;
+}
+
+.x-modal-excluir-cobrança {
+    position: absolute;
+    height: 17.316761016845703px;
+    width: 18.66666603088379px;
+    bottom: 330px;
+    left: 540px;
+    cursor: pointer;
+}

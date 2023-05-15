@@ -1,0 +1,83 @@
+.modal {
+    position: absolute;
+    height: 1100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(145, 154, 150, 0.3);
+    /* Cor branca com transparência */
+    backdrop-filter: blur(1px);
+    /* Efeito de borrado */
+    display: flex;
+    justify-content: center;
+
+    z-index: 999;
+    /* Z-index opcional para ajustar a ordem de sobreposição */
+}
+
+/* Conteúdo do modal */
+.modal-detalhe-cobranca-conteudo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    width: 600px;
+    height: 461px;
+    border-radius: 30px;
+    margin-top: 200px;
+    /* Estilos do conteúdo do modal */
+    background-color: #fff;
+    /* Cor branca do conteúdo do modal */
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* Espaçamento interno do conteúdo do modal */
+}
+
+
+.header-modal-detalhe-cobranca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.header-modal-detalhe-cobranca h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.div-second-modal-detalhe-cobranca {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-second-modal-detalhe-cobranca label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+    margin-bottom: 8px;
+    width: 44px;
+    height: 24px;
+}
+
+.div-second-modal-detalhe-cobranca span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+    margin-bottom: 24px;
+
+}

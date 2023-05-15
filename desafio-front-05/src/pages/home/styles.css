@@ -1,0 +1,244 @@
+.span-home {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #343447;
+}
+
+.container-div-cobrancas-home {
+    display: flex;
+    flex-direction: row;
+    height: 111px;
+    width: 100%;
+    margin-top: 19px;
+    gap: 36px;
+    justify-content: center;
+
+}
+
+.divs-cobrancas-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 40px;
+    gap: 10px;
+    width: 360px;
+    height: 111px;
+    border-radius: 30px;
+}
+
+.div-container-cobranca {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+}
+
+.span-cobrancas-pagas {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+
+}
+
+.span-cobranca-valor {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+
+.container-div-tabelas-cobrancas-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 397px;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.cobranca-tabela-home {
+    height: 100%;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+}
+
+.tabela-cobrança-numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    width: 52px;
+    height: 21px;
+    background: #FFEFEF;
+    border-radius: 8px;
+    color: #971D1D;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.header-tabela-cobrança {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 58px;
+    width: 100%;
+    border-bottom: 1px solid #EFF0F7;
+}
+
+
+.header-cobranca-table-span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3F3F55;
+
+}
+
+.label-tabela-cobranca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    height: 50px;
+    border-bottom: 1px solid #EFF0F7;
+}
+
+.h3-tabela-cobranca {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    color: #3F3F55;
+
+}
+
+.div-span-tabela-cobranca {
+    display: flex;
+    flex-direction: row;
+
+    border-bottom: 1px solid #EFF0F7;
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+
+
+
+
+}
+
+.span-tabela-cobranca {
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #6E6E85;
+    max-width: 300px;
+}
+
+.div-vertodos {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 48px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+
+    text-decoration-line: underline;
+    color: #DA0175;
+}
+
+.div-vertodos span {
+    cursor: pointer;
+}
+
+.container-tabela-clientes-main {
+    display: flex;
+    flex-direction: row;
+    width: 1144px;
+    margin-top: 32px;
+    gap: 32px;
+}
+
+.div-tabela-cliente-main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+
+    gap: 8px;
+    height: 397px;
+    width: 556px;
+    background: #FFFFFF;
+    border-radius: 30px;
+
+}
+
+.header-tabela-cliente-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 58px;
+    width: 100%;
+    border-bottom: 1px solid #EFF0F7;
+}
+
+.label-tabela-cliente-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 155px;
+    height: 50px;
+    border-bottom: 1px solid #EFF0F7;
+}
+
+.div-span-tabela-clientes-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #EFF0F7;
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+
+}
+
+.testeee {
+    display: flex;
+    justify-content: end;
+}
